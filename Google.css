@@ -1,0 +1,173 @@
+/* Edita todo lo que este dentro de la etiqueta <body> */
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13 px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Edita todas las etiquetas <a> */
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Edita todo lo que este dentro de la etiqueta <header> */
+header{
+    width: 100%;
+    height: 60px;
+}
+/* Edita la etiqueta <nav> que esta dentro de la etiqueta <header> */
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+/* Edita la etiqueta <nav> que esta dentro de la etiqueta <header> alineandola hacia la derecha */
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+/* Se agregara una imagen a la etiqueta <li class="menu-icon"> que esta dentro de la etiqueta <nav> alineando a la derecha */
+nav .nav-right-section .menu-icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+/* Se editara la etiqueta <a> que esta dentro de la etiqueta <nav> alineando a la derecha */
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: #000000
+}
+/* Se editara la etiqueta <img> que esta dentro de la etiqueta <nav> alineando a la derecha */
+nav .nav-right-section img{
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+/* Edita todo lo que este dentro de la etiquera <main> */
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+/* Se editara la etiqueta <section class="main-logo"> que esta dentro de la etiqueta <main> */
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/* Se editara la etiqueta <img> que esta dentro de la etiqueta <main> */
+main .main-logo img{
+    width: 330px;
+    height: 120px;
+}
+/* Se editara la etiqueta <section class="main-input"> que es para texto que esta dentro de la etiqueta <main> */
+main .main-input{
+    width:  530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+/* Se editara la etiqueta <div class="main-input-container"> que esta dentro de la etiqueta <main> */
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Se editara la etiqueta <section class="main-input"> que es para texto que esta dentro de la etiqueta <main> */
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+/*Borde y sombreado*/
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+/*alinear imagen*/
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000(searcj.png)');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+/*alinear imagen*/
+main .main-input .micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+/*tamaño del boton*/
+main .main-buttons{
+    width: 530px;
+    height: 0 auto;
+}
+/*bloque*/
+main .main-buttons div{
+    display: inline-block;
+}
+/*diseño del boton*/
+main .main-buttons button{
+    height: 36px;
+    background-color: #f2f2f2;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+/*diseño de boton*/
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222;
+}
+/* Edita todo lo que este dentro de la etiqueta <footer> */
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+/* Se editara la etiqueta <ul> que esta dentro de la etiqueta <footer> */
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+/* Se editara la etiqueta <ul class="footer-left"> que esta dentro de la etiqueta <footer> */
+footer .footer-left{
+    justify-self: left;
+}
+/* Se editara la etiqueta <ul class="footer-right"> que esta dentro de la etiqueta <footer> */
+footer .footer-right{
+    justify-self: right;
+}
+/* Se editaran las etiquetas <ul> <li> <a> que esta dentro de la etiqueta <footer> */
+footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
